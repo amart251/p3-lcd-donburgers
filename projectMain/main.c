@@ -17,7 +17,7 @@
 float melody[] = {
     //NOTE_A4, NOTE_C4, NOTE_G4, NOTE_A4, NOTE_C4, NOTE_G4, NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4
     //NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4
-    NOTE_F6, NOTE_G6, NOTE_GS6,
+NOTE_F6, NOTE_G6, NOTE_GS6,
 
 NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6, NOTE_D6,
 
@@ -26,11 +26,15 @@ NOTE_F6, NOTE_G6, NOTE_GS6,
 NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6, NOTE_D6,
 
 NOTE_GS6, NOTE_G6, NOTE_F6, NOTE_E6, NOTE_D6, NOTE_E6
+
+NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6, NOTE_D6,
+
+NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6, NOTE_D6,
 };
 
 // Define the duration for each note in the melody
 int noteDurations[] = {
-    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,  // 4 represents a quarter note, 2 represents a half note, etc.
+    4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4 // 4 represents a quarter note, 2 represents a half note, etc.
 };
 
 // Set up Timer A to run in up mode
