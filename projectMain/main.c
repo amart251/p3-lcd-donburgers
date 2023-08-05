@@ -31,7 +31,7 @@ NOTE_GS6, NOTE_G6, NOTE_F6, NOTE_E6, NOTE_D6, NOTE_E6
 // Define the duration for each note in the melody
 int noteDurations[] = {
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;  // 4 represents a quarter note, 2 represents a half note, etc.
-}
+};
 
 // Set up Timer A to run in up mode
 void timerAUpmode()
