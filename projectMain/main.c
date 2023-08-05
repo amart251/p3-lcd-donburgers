@@ -19,7 +19,7 @@ float melody[] = {
 
 // Define the duration for each note in the melody
 int noteDurations[] = {
-    3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1  // 4 represents a quarter note, 2 represents a half note, etc.
+    2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4  // 4 represents a quarter note, 2 represents a half note, etc.
 };
 
 // Set up Timer A to run in up mode
