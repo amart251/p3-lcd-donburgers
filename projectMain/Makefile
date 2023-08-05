@@ -1,5 +1,6 @@
 CC = msp430-elf-gcc
-CFLAGS = -mmcu=msp430g2553
+CPU = msp430g2553
+CFLAGS = -mmcu=${CPU} -I../h -L/opt/ti/msp430_gcc/include
 OBJS = main.o
 TARGET = main.elf
 
@@ -10,6 +11,5 @@ $(TARGET): $(OBJS)
 
 load: $(TARGET)
     msp430loader.sh $^
-
 clean:
     rm -f *.o *.elf
