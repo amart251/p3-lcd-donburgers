@@ -1,4 +1,5 @@
 #include <msp430.h>
+#include "notes.h"
 
 // Define the frequencies for musical notes
 #define NOTE_C4  261.63
