@@ -9,7 +9,7 @@
 #define NOTE_A4  440.00
 #define NOTE_B4  493.88
 
-// Define the frequency for the system clock (SMCLK)
+// Define the frequency for the system clock (SMCLK).
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
 
 // Define the melody sequence
