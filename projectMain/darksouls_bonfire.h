@@ -1,7 +1,7 @@
 #ifndef DARKSOULS_BONFIRE_H
 #define DARKSOULS_BONFIRE_H
 
-#include "grlib.h"
+//#include "grlib.h"
 
 static const unsigned char pixel_darksouls_bonfire4BPP_COMP_RLE4[] =
 {

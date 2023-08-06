@@ -29,7 +29,7 @@ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 
-#include "grlib.h"
+//#include "grlib.h"
 
 static const unsigned char pixel_darksouls_bonfire4BPP_COMP_RLE4[] =
 {
