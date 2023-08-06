@@ -1,5 +1,4 @@
 #include <msp430.h>
-<<<<<<< HEAD
 #include "globals.h"
 #include "button.h"
 #include "buzzer.h"
@@ -7,7 +6,6 @@
 #include "timer.h"
 #include "grlib.h"
 #include "darksouls_bonfire.h" 
-=======
 #include "notes.h"
 
 // Define the frequencies for musical notes
@@ -18,7 +16,6 @@
 #define NOTE_G4  392.00
 #define NOTE_A4  440.00
 #define NOTE_B4  493.88.*/
->>>>>>> 58cfb0593022609f1d9f81b9a4c21003139b6a5f
 
 // Define the frequency for the system clock (SMCLK)..
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
