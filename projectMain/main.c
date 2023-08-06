@@ -24,13 +24,13 @@ int main(void)
     P1OUT &= ~(BIT0 | BIT2);  // Ensure LEDs are off to start
         // Wait for a button to be pressed
     while (1) {
+        //melodies();
         if ((P2IN & BIT0) == 0) {  // If button on P2.0 is pressed
-            
             for (int i = 0; melody1[i] != -1; i++) {
-                playBuzzer(melody1[i], noteDurations1[i]);
-                delay_ms(1000 / noteDurations1[i]);
+                playBuzzer(melody1([i]), noteDurations1([i]));
+                delay_ms(1000 / noteDurations1([i]));
                 stopBuzzer();
-                delay_ms(250 / noteDurations1[i]);  // Short delay between notes
+                delay_ms(250 / noteDurations1([i]));  // Short delay between notes
             }
         }
         else if ((P2IN & BIT1) == 0) {  // If button on P2.1 is pressed
