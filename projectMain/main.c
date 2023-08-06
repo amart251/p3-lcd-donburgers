@@ -27,7 +27,7 @@ int main(void)
         //melodies();
         if ((P2IN & BIT0) == 0) {  // If button on P2.0 is pressed
             for (int i = 0; melody1(i) != -1; i++) {
-                playBuzzer(melody1([i]), noteDurations1([i]));
+                playBuzzer(melody1(i), noteDurations1(i));
                 delay_ms(1000 / noteDurations1(i));
                 stopBuzzer();
                 delay_ms(250 / noteDurations1(i));  // Short delay between notes
