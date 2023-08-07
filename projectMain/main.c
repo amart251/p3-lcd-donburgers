@@ -24,7 +24,7 @@ int main(void)
     buzzer_init();  // Initialize the buzzer
     button_init();  // Initialize the button
 
-    lcd_int();      // Initialize the LCD
+    lcd_init();      // Initialize the LCD
     u_char width = screenWidth, height = screenHeight;
     clearScreen(COLOR_BLUE);
     fillRectangle(30,30, 60, 60, COLOR_BLACK);
