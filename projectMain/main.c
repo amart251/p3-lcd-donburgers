@@ -31,7 +31,7 @@ int main(void)
 
 
     //----------------
-    configureClocks();
+    //configureClocks();
     lcd_init();
     u_char width = screenWidth, height = screenHeight;
 
