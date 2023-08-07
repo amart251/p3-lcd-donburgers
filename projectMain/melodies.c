@@ -1,8 +1,8 @@
 #include "notes.h"
 #include "button.h"
+#include "melodies.h"
 
-void melodies()
-{
+
 float melody1[] = {
     NOTE_F6, NOTE_G6, NOTE_GS6,
 
@@ -68,10 +68,9 @@ float melody4[] = {
     NOTE_F3, NOTE_G3, NOTE_GS3
 
 };
-}
 
-void durations()
-{
+
+
 // Define the duration for each note in the melody
 // 4 represents a quarter note, 2 represents a half note, etc.
 
@@ -111,4 +110,4 @@ int noteDurations4[] = {
     4,4,4,4,4,
     4,4,4
 };
-}
+

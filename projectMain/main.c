@@ -11,7 +11,6 @@
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
 
 
-//TODO: Link melodies.c to main function; refactor while loop; add image to screen
 // Main function
 int main(void)
 {
