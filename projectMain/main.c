@@ -6,7 +6,7 @@
 #include "timer.h"
 #include "notes.h"
 #include "melodies.h"
-#include "lcd.h"
+//#include "lcd.h"
 #include "lcdutils.h"
 #include "lcddraw.h"
 
@@ -19,9 +19,14 @@ int main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;  // Stop watchdog timer
 
+
     buzzer_init();  // Initialize the buzzer
     button_init();  // Initialize the button
+
     lcd_int();      // Initialize the LCD
+    u_char width = screenWidth, height = screenHeight;
+    clearScreen(COLOR_BLUE);
+    fillRectangle(30,30, 60, 60, COLOR_ORANGE);
     
     
     P1DIR |= (BIT0 | BIT2);  // Set P1.0 and P1.2 as outputs
