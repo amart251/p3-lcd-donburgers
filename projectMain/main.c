@@ -27,7 +27,7 @@ int main(void)
     lcd_int();      // Initialize the LCD
     u_char width = screenWidth, height = screenHeight;
     clearScreen(COLOR_BLUE);
-    fillRectangle(30,30, 60, 60, COLOR_ORANGE);
+    fillRectangle(30,30, 60, 60, COLOR_BLACK);
     
     
     P1DIR |= (BIT0 | BIT2);  // Set P1.0 and P1.2 as outputs
