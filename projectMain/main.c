@@ -54,7 +54,7 @@ int main(void)
 
             fillRectangle(30,30, 60, 60, COLOR_BEIGE);
 
-            drawString5x7(20,10, "GAME OVER!", COLOR_BLACK, COLOR_PINK;
+            drawString5x7(20,10, "GAME OVER!", COLOR_BLACK, COLOR_PINK);
             drawString5x7(10,20, "SAVE & CONTINUE", COLOR_BLACK, COLOR_BEIGE);
             drawString5x7(10,40, "SAVE & QUIT", COLOR_BLACK, COLOR_BEIGE);
             drawString5x7(10,60, "CONTINUE", COLOR_BLACK, COLOR_BEIGE);
