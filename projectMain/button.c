@@ -34,16 +34,16 @@ __interrupt void button_isr(void)
     if (P2IFG & BIT0) // Check if P2.0 interrupt flag is set
     {
         // Your code to handle the button press event on P2.0
-        lcd_set_color(RED); // Set the color to red
-        lcd_draw_star(); // Draw the star
+        //lcd_set_color(RED); // Set the color to red
+        //lcd_draw_star(); // Draw the star
         P2IFG &= ~BIT0; // Clear interrupt flag
     }
 
     if (P2IFG & BIT1) // Check if P2.1 interrupt flag is set
     {
         // Your code to handle the button press event on P2.1
-        lcd_set_color(BLACK); // Set the color to black
-        lcd_draw_star(); // Draw the star
+        //lcd_set_color(BLACK); // Set the color to black
+        //lcd_draw_star(); // Draw the star
         P2IFG &= ~BIT1; // Clear interrupt flag
     }
     
