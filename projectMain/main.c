@@ -50,19 +50,26 @@ int main(void)
     while (1) {
         //melodies();
         if ((P2IN & BIT0) == 0) {  // If button on P2.0 is pressed
+            clearScreen(COLOR_BLUE);
+
+            drawString5x7(0,20, "welcome to your death", COLOR_GREEN, COLOR_RED);
+
+            
+            fillRectangle(30,30, 60, 60, COLOR_BLACK);
             for (int i = 0; melody1[i] != -1; i++) {
                 playBuzzer(melody1[i], noteDurations1[i]);
                 delay_ms(1000 / noteDurations1[i]);
                 stopBuzzer();
                 delay_ms(250 / noteDurations1[i]);  // Short delay between notes
-                clearScreen(COLOR_BLUE);
-
-                drawString5x7(0,20, "welcome to your death", COLOR_GREEN, COLOR_RED);
-
-                fillRectangle(30,30, 60, 60, COLOR_BLACK);
             }
         }
         else if ((P2IN & BIT1) == 0) {  // If button on P2.1 is pressed
+            clearScreen(COLOR_BLACK);
+
+            drawString5x7(0,20, "hamburger", COLOR_GRAY, COLOR_PURPLE);
+
+            fillRectangle(30,30, 60, 60, COLOR_YELLOW);
+
             // Play melody 2
             for (int i = 0; melody2[i] != -1; i++) {
                 playBuzzer(melody2[i], noteDurations2[i]);
@@ -70,11 +77,7 @@ int main(void)
                 stopBuzzer();
                 delay_ms(250 / noteDurations2[i]);  // Short delay between notes
 
-                clearScreen(COLOR_BLACK);
 
-                drawString5x7(0,20, "hamburger", COLOR_GRAY, COLOR_PURPLE);
-
-                fillRectangle(30,30, 60, 60, COLOR_YELLOW);
             }
         }
         /*
