@@ -2,6 +2,15 @@
 #define MELODIES_H
 
 // Declare melodies initialization function
-void melodies();
+extern float melody1[];
+extern float melody2[];
+extern float melody3[];
+extern float melody4[];
+
+extern int noteDurations1[];
+extern int noteDurations2[];
+extern int noteDurations3[];
+extern int noteDurations4[];
+
 
 #endif
