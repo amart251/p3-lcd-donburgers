@@ -52,7 +52,7 @@ int main(void)
         if ((P2IN & BIT0) == 0) {  // If button on P2.0 is pressed
             clearScreen(COLOR_SEA_GREEN);
 
-            fillRectangle(30,30, 60, 60, COLOR_BEIGE;
+            fillRectangle(30,30, 60, 60, COLOR_BEIGE);
 
             drawString5x7(20,10, "GAME OVER!", COLOR_PINK, COLOR_BLACK)
             drawString5x7(10,20, "SAVE & CONTINUE", COLOR_BEIGE, COLOR_BLACK);
@@ -71,7 +71,7 @@ int main(void)
         else if ((P2IN & BIT1) == 0) {  //p21 If button on P2.1 is pressed
             clearScreen(COLOR_BLACK);
 
-            fillRectangle(5,20, 5, 5, COLOR_RED;
+            fillRectangle(5,20, 5, 5, COLOR_RED);
 
             drawString5x7(10,20, "CONTINUE", COLOR_BLACK, COLOR_RED);
             drawString5x7(10,40, "SAVE", COLOR_BLACK, COLOR_RED);
