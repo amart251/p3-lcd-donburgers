@@ -50,12 +50,17 @@ int main(void)
     while (1) {
         //melodies();
         if ((P2IN & BIT0) == 0) {  // If button on P2.0 is pressed
-            clearScreen(COLOR_BLUE);
+            clearScreen(COLOR_SEA_GREEN);
 
-            drawString5x7(0,20, "welcome to your death", COLOR_GREEN, COLOR_RED);
+            fillRectangle(30,30, 60, 60, COLOR_BEIGE;
+
+            drawString5x7(20,10, "GAME OVER!", COLOR_PINK, COLOR_BLACK)
+            drawString5x7(10,20, "SAVE & CONTINUE", COLOR_BEIGE, COLOR_BLACK);
+            drawString5x7(10,40, "SAVE & QUIT", COLOR_BEIGE, COLOR_BLACK);
+            drawString5x7(10,60, "CONTINUE", COLOR_BEIGE, COLOR_BLACK);
+            drawString5x7(10,70, "WITHOUT SAVING", COLOR_BEIGE, COLOR_BLACK);
 
             
-            fillRectangle(30,30, 60, 60, COLOR_BLACK);
             for (int i = 0; melody1[i] != -1; i++) {
                 playBuzzer(melody1[i], noteDurations1[i]);
                 delay_ms(1000 / noteDurations1[i]);
@@ -63,12 +68,15 @@ int main(void)
                 delay_ms(250 / noteDurations1[i]);  // Short delay between notes
             }
         }
-        else if ((P2IN & BIT1) == 0) {  // If button on P2.1 is pressed
+        else if ((P2IN & BIT1) == 0) {  //p21 If button on P2.1 is pressed
             clearScreen(COLOR_BLACK);
 
-            drawString5x7(0,20, "hamburger", COLOR_GRAY, COLOR_PURPLE);
+            fillRectangle(5,20, 5, 5, COLOR_RED;
 
-            fillRectangle(30,30, 60, 60, COLOR_YELLOW);
+            drawString5x7(10,20, "CONTINUE", COLOR_BLACK, COLOR_RED);
+            drawString5x7(10,40, "SAVE", COLOR_BLACK, COLOR_RED);
+            drawString5x7(10,60, "RETRY", COLOR_BLACK, COLOR_RED);
+
 
             // Play melody 2
             for (int i = 0; melody2[i] != -1; i++) {
