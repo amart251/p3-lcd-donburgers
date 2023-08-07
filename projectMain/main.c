@@ -54,11 +54,11 @@ int main(void)
 
             fillRectangle(30,30, 60, 60, COLOR_BEIGE);
 
-            drawString5x7(20,10, "GAME OVER!", COLOR_PINK, COLOR_BLACK);
-            drawString5x7(10,20, "SAVE & CONTINUE", COLOR_BEIGE, COLOR_BLACK);
-            drawString5x7(10,40, "SAVE & QUIT", COLOR_BEIGE, COLOR_BLACK);
-            drawString5x7(10,60, "CONTINUE", COLOR_BEIGE, COLOR_BLACK);
-            drawString5x7(10,70, "WITHOUT SAVING", COLOR_BEIGE, COLOR_BLACK);
+            drawString5x7(20,10, "GAME OVER!", COLOR_BLACK, COLOR_PINK;
+            drawString5x7(10,20, "SAVE & CONTINUE", COLOR_BLACK, COLOR_BEIGE);
+            drawString5x7(10,40, "SAVE & QUIT", COLOR_BLACK, COLOR_BEIGE);
+            drawString5x7(10,60, "CONTINUE", COLOR_BLACK, COLOR_BEIGE);
+            drawString5x7(10,70, "WITHOUT SAVING", COLOR_BLACK, COLOR_BEIGE);
 
             
             for (int i = 0; melody1[i] != -1; i++) {
@@ -73,9 +73,9 @@ int main(void)
 
             fillRectangle(5,20, 5, 5, COLOR_RED);
 
-            drawString5x7(10,20, "CONTINUE", COLOR_BLACK, COLOR_RED);
-            drawString5x7(10,40, "SAVE", COLOR_BLACK, COLOR_RED);
-            drawString5x7(10,60, "RETRY", COLOR_BLACK, COLOR_RED);
+            drawString5x7(10,20, "CONTINUE", COLOR_WHITE, COLOR_BLACK);
+            drawString5x7(10,40, "SAVE", COLOR_WHITE, COLOR_BLACK);
+            drawString5x7(10,60, "RETRY", COLOR_WHITE, COLOR_BLACK);
 
 
             // Play melody 2
