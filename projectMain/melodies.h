@@ -1,6 +1,8 @@
 #ifndef MELODIES_H
 #define MELODIES_H
 
+void melodies();
+
 // Declare melodies initialization function
 extern float melody1[];
 extern float melody2[];
