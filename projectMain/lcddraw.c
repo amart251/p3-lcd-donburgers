@@ -3,6 +3,7 @@
  */
 #include "lcdutils.h"
 #include "lcddraw.h"
+#include <msp430.h>
 
 
 /** Draw single pixel at x,row 
