@@ -8,9 +8,7 @@
 #include "notes.h"
 #include "melodies.h"
 //#include "lcd.h"
-#include "lcdutils.h"
-#include "lcddraw.h"
-//#include "lcdtypes.h"
+
 
 // Define the frequency for the system clock (SMCLK)..
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
@@ -25,10 +23,8 @@ int main(void)
     buzzer_init();  // Initialize the buzzer
     button_init();  // Initialize the button
 
-    lcd_init();      // Initialize the LCD
-    u_char width = screenWidth, height = screenHeight;
-    clearScreen(COLOR_BLUE);
-    fillRectangle(30,30, 60, 60, COLOR_BLACK);
+    //lcd_init();      // Initialize the LCD
+
     
     
     P1DIR |= (BIT0 | BIT2);  // Set P1.0 and P1.2 as outputs
