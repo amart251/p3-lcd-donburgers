@@ -20,20 +20,18 @@ float melody1[] = {
 };
 
 float melody2[] = {
-    NOTE_F4, NOTE_G4, NOTE_GS4,
+    NOTE_G6, NOTE_G5, NOTE_C6, NOTE_E6, NOTE_DS6, NOTE_G5, 
 
-    NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4, NOTE_D4,
+    NOTE_B6, NOTE_B5, NOTE_A6, NOTE_C6, NOTE_E6, NOTE_A6, 
 
-    NOTE_F4, NOTE_G4, NOTE_GS4,
+    NOTE_G6, NOTE_C6, NOTE_D6, NOTE_E6, NOTE_A6, NOTE_C6, 
 
-    NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4, NOTE_D4,
+    NOTE_F6, NOTE_A6, NOTE_GS6, NOTE_C6, NOTE_D6, NOTE_F6, 
 
-    NOTE_GS4, NOTE_G4, NOTE_F4, NOTE_E4, NOTE_D4, NOTE_E4,
+    NOTE_E6, NOTE_G5, NOTE_C6, NOTE_E6, NOTE_D6, NOTE_A5, 
 
-    NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4, NOTE_D4,
-
-    NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4, NOTE_D4
-    };
+    NOTE_B5, NOTE_D6
+};
 
 float melody3[] = {
 
@@ -88,13 +86,12 @@ int noteDurations1[] = {
 };
 
 int noteDurations2[] = {
-    4,4,4,
-    4,4,4,4,4,
-    4,4,4,
-    4,4,4,4,4,
-    4,4,4,4,4,4,
-    4,4,4,4,4,
-    4,4,4,4,4 
+    4, 4, 4, 4, 4, 4,
+    4, 4, 4, 4, 4, 4,
+    4, 4, 4, 4, 4, 4,
+    4, 4, 4, 4, 4, 4,
+    4, 4, 4, 4, 4, 4,
+    4, 4
 };
 
 int noteDurations3[] = {
