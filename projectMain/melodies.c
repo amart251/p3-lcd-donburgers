@@ -32,7 +32,7 @@ float melody2[] = {
 
     NOTE_B5, NOTE_D6
 };
-/*
+
 float melody3[] = {
 
     NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6, NOTE_D6, 
@@ -51,6 +51,7 @@ float melody3[] = {
 
 };
 
+/*
 float melody4[] = {
 
     NOTE_G2, NOTE_A2, NOTE_B2, NOTE_C3, NOTE_D3, 
@@ -93,7 +94,7 @@ int noteDurations2[] = {
     4, 4
 };
 
-/*
+
 int noteDurations3[] = {
     4,4,4,4,4,
     4,4,4,4,4,4,
@@ -102,7 +103,7 @@ int noteDurations3[] = {
     4,4,4,4,4,
     4,4,4
 };
-
+/*
 int noteDurations4[] = {
     4,4,4,4,4,
     4,4,4,4,4,4,

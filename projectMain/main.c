@@ -42,7 +42,7 @@ int main(void)
                 stopBuzzer();
                 delay_ms(250 / noteDurations2[i]);  // Short delay between notes
             }
-        }/*
+        }
         else if ((P2IN & BIT3) == 0) {  // If button on P2.1 is pressed
             // Play melody 3
             for (int i = 0; melody3[i] != -1; i++) {
@@ -52,6 +52,7 @@ int main(void)
                 delay_ms(250 / noteDurations3[i]);  // Short delay between notes
             }
         }
+        /*
         else if ((P2IN & BIT3) == 0) {  // If button on P2.1 is pressed
             // Play melody 4
             for (int i = 0; melody4[i] != -1; i++) {
