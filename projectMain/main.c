@@ -18,7 +18,7 @@ int main(void)
 
     buzzer_init();  // Initialize the buzzer
     button_init();  // Initialize the button
-    melodies();
+    //melodies();
     
     
     P1DIR |= (BIT0 | BIT2);  // Set P1.0 and P1.2 as outputs
