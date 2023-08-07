@@ -1,4 +1,5 @@
 #include <msp430.h>
+#include <libTimer.h>
 #include "globals.h"
 #include "button.h"
 #include "buzzer.h"
@@ -9,7 +10,7 @@
 //#include "lcd.h"
 #include "lcdutils.h"
 #include "lcddraw.h"
-#include "lcdtypes.h"
+//#include "lcdtypes.h"
 
 // Define the frequency for the system clock (SMCLK)..
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
