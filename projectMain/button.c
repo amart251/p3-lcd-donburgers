@@ -43,6 +43,7 @@ __interrupt void button_isr(void)
         P2IFG &= ~BIT1; // Clear interrupt flag
     }
 
+    /*
     if (P2IFG & BIT2) // Check if P2.2 interrupt flag is set
     {
         // Your code to handle the button press event on P2.2
@@ -54,4 +55,5 @@ __interrupt void button_isr(void)
         // Your code to handle the button press event on P2.3
         P2IFG &= ~BIT3; // Clear interrupt flag
     }
+    */
 }
