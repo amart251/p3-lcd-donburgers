@@ -1,7 +1,7 @@
 CC = msp430-elf-gcc
 CPU = msp430g2553
 CFLAGS = -mmcu=${CPU} -I. -I../h -L/opt/ti/msp430_gcc/include
-OBJS = main.o button.o timer.o delay.o buzzer.o melodies.o lcdutils.o lcddraw.h lcdtypes.h
+OBJS = main.o button.o timer.o delay.o buzzer.o melodies.o lcdutils.o lcddraw.h
 TARGET = main.elf 
 
 all: $(TARGET)
