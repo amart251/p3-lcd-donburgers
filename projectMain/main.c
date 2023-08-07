@@ -9,6 +9,10 @@
 #include "melodies.h"
 //#include "lcd.h"
 
+#include <libTimer.h>
+#include "lcdutils.h"
+#include "lcddraw.h"
+
 
 // Define the frequency for the system clock (SMCLK)..
 #define SMCLK_FREQ 1000000  // Assuming SMCLK is set to 1MHz
@@ -24,6 +28,19 @@ int main(void)
     button_init();  // Initialize the button
 
     //lcd_init();      // Initialize the LCD
+
+
+    //----------------
+    configureClocks();
+    lcd_init();
+    u_char width = screenWidth, height = screenHeight;
+
+    clearScreen(COLOR_BLUE);
+
+    drawString5x7(20,20, "welcome to your death", COLOR_GREEN, COLOR_RED);
+
+    fillRectangle(30,30, 60, 60, COLOR_BLACK);
+    //----------------
 
     
     
